@@ -1,0 +1,82 @@
+{
+  "description": "项目配置文件",
+  "setting": {
+    "bundle": false,
+    "userConfirmedBundleSwitch": false,
+    "urlCheck": true,
+    "scopeDataCheck": false,
+    "coverView": true,
+    "es6": true,
+    "postcss": true,
+    "compileHotReLoad": false,
+    "lazyloadPlaceholderEnable": false,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "autoAudits": false,
+    "newFeature": false,
+    "uglifyFileName": false,
+    "uploadWithSourceMap": true,
+    "useIsolateContext": true,
+    "nodeModules": false,
+    "enhance": true,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "showShadowRootInWxmlPanel": true,
+    "packNpmManually": false,
+    "enableEngineNative": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "showES6CompileOption": false,
+    "minifyWXML": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "condition": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.19.4",
+  "appid": "wxf5531741bdfeed9d",
+  "projectname": "minimall",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "cart",
+          "pathName": "pages/cart/cart",
+          "query": ""
+        },
+        {
+          "name": "my",
+          "pathName": "pages/my/my",
+          "query": ""
+        },
+        {
+          "name": "about",
+          "pathName": "pages/about/about",
+          "query": ""
+        },
+        {
+          "name": "pay",
+          "pathName": "pages/pay/pay",
+          "query": ""
+        },
+        {
+          "name": "address",
+          "pathName": "pages/address/address",
+          "query": ""
+        }
+      ]
+    }
+  },
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}
